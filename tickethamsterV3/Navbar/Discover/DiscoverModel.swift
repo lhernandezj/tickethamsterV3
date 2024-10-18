@@ -14,16 +14,16 @@ struct Event: Identifiable, Equatable {
     var tx1: String
     var tx2: String
   
-    var imageUrl: String
+    var img1: String
     var tag: Int
     
     
-    static var samplePage = Event(tx1: "Venue Name", tx2: "Event Name", imageUrl: "modes", tag: 0)
+    static var samplePage = Event(tx1: "Venue Name", tx2: "Event Name", img1: "default", tag: 0)
     
     static var samplePages : [Event] = [
-        Event(tx1: "Venue", tx2: "Event Name", imageUrl: "modes", tag: 0),
+        Event(tx1: "Venue 1", tx2: "Event Name 1", img1: "default", tag: 0),
         
-        Event(tx1: "Venue", tx2: "Event Name", imageUrl: "ticketem", tag: 1),
+        Event(tx1: "Venue 2", tx2: "Event Name 2", img1: "modes", tag: 1),
     ]
    
 }

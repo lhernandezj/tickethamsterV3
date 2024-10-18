@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90C3C9A92CC2C93A00B7CF41 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3C9A82CC2C93A00B7CF41 /* Error.swift */; };
 		E31CACC02CC1AC070089CA1E /* tickethamsterV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */; };
 		E31CACC22CC1AC070089CA1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31CACC12CC1AC070089CA1E /* ContentView.swift */; };
 		E31CACC42CC1AC0B0089CA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31CACC32CC1AC0B0089CA1E /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		90C3C9A82CC2C93A00B7CF41 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		E31CACBC2CC1AC070089CA1E /* tickethamsterV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tickethamsterV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tickethamsterV3App.swift; sourceTree = "<group>"; };
 		E31CACC12CC1AC070089CA1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				E31CACC12CC1AC070089CA1E /* ContentView.swift */,
 				E31CACC32CC1AC0B0089CA1E /* Assets.xcassets */,
 				E31CACC52CC1AC0B0089CA1E /* Preview Content */,
+				90C3C9A82CC2C93A00B7CF41 /* Error.swift */,
 			);
 			path = tickethamsterV3;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				E31CACF12CC1AE9E0089CA1E /* Account.swift in Sources */,
 				E31CACF42CC1B5520089CA1E /* DiscoverModel.swift in Sources */,
 				E3FF6C292CC1B81500AD19D1 /* DiscoverView.swift in Sources */,
+				90C3C9A92CC2C93A00B7CF41 /* Error.swift in Sources */,
 				E3FF6C2B2CC1BCA400AD19D1 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    @State private var eventIndex = 0
+    private let events: [Event] = Event.samplePages
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+       
+            ZStack{
+                ZStack{
+                    TabView(selection: $eventIndex) {
+                        ForEach(events) { event in
+                            VStack{
+                                DiscoverView(event: event)                            }
+                            .tag(event.tag)
+                            
+                        }
+                    }
+                }
+                
+                
+            }
     }
 }
 

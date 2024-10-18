@@ -9,7 +9,9 @@ import SwiftUI
 
 struct Discover: View {
     var body: some View {
-        Text("This is discover")
+        ZStack{
+            ListView()
+        }
     }
 }
 
