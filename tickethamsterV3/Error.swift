@@ -18,8 +18,7 @@ struct Error: View {
             ZStack{
                 
                 Color.white
-                
-                
+
                 ZStack(){
                     
                     ZStack{
@@ -55,7 +54,7 @@ struct Error: View {
                     
                     
                     
-                    Color("headColor")
+                    Color("nHead")
                         .frame(height: 85)
                         .background(.ultraThinMaterial)
                         .blur(radius: 0.5)

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		904541132CC6C1B900858EF2 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541122CC6C1B900858EF2 /* About.swift */; };
+		904541162CC6D1B000858EF2 /* Performers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541152CC6D1B000858EF2 /* Performers.swift */; };
+		904541182CC6D3AD00858EF2 /* Venues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541172CC6D3AD00858EF2 /* Venues.swift */; };
+		9045411A2CC6D3BB00858EF2 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541192CC6D3BB00858EF2 /* Teams.swift */; };
+		9045411D2CC6D78200858EF2 /* EventsUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045411C2CC6D78200858EF2 /* EventsUp.swift */; };
+		9045411F2CC6D7A100858EF2 /* EventsP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9045411E2CC6D7A100858EF2 /* EventsP.swift */; };
+		904541222CC6DAB400858EF2 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541212CC6DAB400858EF2 /* PageModel.swift */; };
+		904541242CC6DB4E00858EF2 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541232CC6DB4E00858EF2 /* PageView.swift */; };
+		904541272CC6DDEC00858EF2 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541262CC6DDEC00858EF2 /* Details.swift */; };
+		904541292CC6DF4900858EF2 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904541282CC6DF4900858EF2 /* TicketsView.swift */; };
+		90542B772CC704C700F90F85 /* CodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90542B762CC704C700F90F85 /* CodeModel.swift */; };
+		90542B792CC7052100F90F85 /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90542B782CC7052100F90F85 /* CodeView.swift */; };
+		90542B7B2CC7069E00F90F85 /* CodeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90542B7A2CC7069E00F90F85 /* CodeViewer.swift */; };
+		90542B7D2CC7102F00F90F85 /* ErrorEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90542B7C2CC7102F00F90F85 /* ErrorEvent.swift */; };
 		90C3C9A92CC2C93A00B7CF41 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C3C9A82CC2C93A00B7CF41 /* Error.swift */; };
 		E31CACC02CC1AC070089CA1E /* tickethamsterV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */; };
 		E31CACC22CC1AC070089CA1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31CACC12CC1AC070089CA1E /* ContentView.swift */; };
@@ -42,6 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		904541122CC6C1B900858EF2 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		904541152CC6D1B000858EF2 /* Performers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Performers.swift; sourceTree = "<group>"; };
+		904541172CC6D3AD00858EF2 /* Venues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venues.swift; sourceTree = "<group>"; };
+		904541192CC6D3BB00858EF2 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		9045411C2CC6D78200858EF2 /* EventsUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUp.swift; sourceTree = "<group>"; };
+		9045411E2CC6D7A100858EF2 /* EventsP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsP.swift; sourceTree = "<group>"; };
+		904541212CC6DAB400858EF2 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		904541232CC6DB4E00858EF2 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		904541262CC6DDEC00858EF2 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		904541282CC6DF4900858EF2 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		90542B762CC704C700F90F85 /* CodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeModel.swift; sourceTree = "<group>"; };
+		90542B782CC7052100F90F85 /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		90542B7A2CC7069E00F90F85 /* CodeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewer.swift; sourceTree = "<group>"; };
+		90542B7C2CC7102F00F90F85 /* ErrorEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEvent.swift; sourceTree = "<group>"; };
 		90C3C9A82CC2C93A00B7CF41 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		E31CACBC2CC1AC070089CA1E /* tickethamsterV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tickethamsterV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tickethamsterV3App.swift; sourceTree = "<group>"; };
@@ -87,6 +115,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		904541142CC6D19F00858EF2 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				904541152CC6D1B000858EF2 /* Performers.swift */,
+				904541172CC6D3AD00858EF2 /* Venues.swift */,
+				904541192CC6D3BB00858EF2 /* Teams.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		9045411B2CC6D76800858EF2 /* EVENTS */ = {
+			isa = PBXGroup;
+			children = (
+				9045411C2CC6D78200858EF2 /* EventsUp.swift */,
+				9045411E2CC6D7A100858EF2 /* EventsP.swift */,
+			);
+			path = EVENTS;
+			sourceTree = "<group>";
+		};
+		904541202CC6DA6D00858EF2 /* TICKET */ = {
+			isa = PBXGroup;
+			children = (
+				90542B752CC704A100F90F85 /* Code */,
+				904541252CC6DDD200858EF2 /* Details */,
+				904541212CC6DAB400858EF2 /* PageModel.swift */,
+				904541232CC6DB4E00858EF2 /* PageView.swift */,
+				904541282CC6DF4900858EF2 /* TicketsView.swift */,
+			);
+			path = TICKET;
+			sourceTree = "<group>";
+		};
+		904541252CC6DDD200858EF2 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				904541262CC6DDEC00858EF2 /* Details.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		90542B752CC704A100F90F85 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				90542B762CC704C700F90F85 /* CodeModel.swift */,
+				90542B782CC7052100F90F85 /* CodeView.swift */,
+				90542B7A2CC7069E00F90F85 /* CodeViewer.swift */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
 		E31CACB32CC1AC070089CA1E = {
 			isa = PBXGroup;
 			children = (
@@ -110,12 +187,15 @@
 		E31CACBE2CC1AC070089CA1E /* tickethamsterV3 */ = {
 			isa = PBXGroup;
 			children = (
+				904541202CC6DA6D00858EF2 /* TICKET */,
 				E31CACE92CC1AD500089CA1E /* Navbar */,
 				E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */,
 				E31CACC12CC1AC070089CA1E /* ContentView.swift */,
 				E31CACC32CC1AC0B0089CA1E /* Assets.xcassets */,
 				E31CACC52CC1AC0B0089CA1E /* Preview Content */,
+				904541122CC6C1B900858EF2 /* About.swift */,
 				90C3C9A82CC2C93A00B7CF41 /* Error.swift */,
+				90542B7C2CC7102F00F90F85 /* ErrorEvent.swift */,
 			);
 			path = tickethamsterV3;
 			sourceTree = "<group>";
@@ -148,7 +228,9 @@
 		E31CACE92CC1AD500089CA1E /* Navbar */ = {
 			isa = PBXGroup;
 			children = (
+				9045411B2CC6D76800858EF2 /* EVENTS */,
 				E31CACF22CC1B4CA0089CA1E /* Discover */,
+				904541142CC6D19F00858EF2 /* Favorites */,
 				E31CACEA2CC1AD690089CA1E /* Discover.swift */,
 				E31CACEC2CC1AE2D0089CA1E /* Favorites.swift */,
 				E31CACEE2CC1AE650089CA1E /* Events.swift */,
@@ -246,7 +328,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E31CACB72CC1AC070089CA1E /* Build configuration list for PBXProject "tickethamsterV3" */;
+			buildConfigurationList = E31CACB72CC1AC070089CA1E /* Build configuration list for PBXProject "Ticketmaster" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -297,14 +379,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9045411A2CC6D3BB00858EF2 /* Teams.swift in Sources */,
+				904541162CC6D1B000858EF2 /* Performers.swift in Sources */,
+				904541182CC6D3AD00858EF2 /* Venues.swift in Sources */,
 				E31CACC22CC1AC070089CA1E /* ContentView.swift in Sources */,
 				E31CACED2CC1AE2D0089CA1E /* Favorites.swift in Sources */,
+				904541132CC6C1B900858EF2 /* About.swift in Sources */,
 				E31CACC02CC1AC070089CA1E /* tickethamsterV3App.swift in Sources */,
+				90542B7D2CC7102F00F90F85 /* ErrorEvent.swift in Sources */,
+				904541242CC6DB4E00858EF2 /* PageView.swift in Sources */,
+				90542B7B2CC7069E00F90F85 /* CodeViewer.swift in Sources */,
 				E31CACEB2CC1AD690089CA1E /* Discover.swift in Sources */,
 				E31CACEF2CC1AE660089CA1E /* Events.swift in Sources */,
+				904541272CC6DDEC00858EF2 /* Details.swift in Sources */,
 				E31CACF12CC1AE9E0089CA1E /* Account.swift in Sources */,
 				E31CACF42CC1B5520089CA1E /* DiscoverModel.swift in Sources */,
 				E3FF6C292CC1B81500AD19D1 /* DiscoverView.swift in Sources */,
+				904541292CC6DF4900858EF2 /* TicketsView.swift in Sources */,
+				9045411D2CC6D78200858EF2 /* EventsUp.swift in Sources */,
+				90542B772CC704C700F90F85 /* CodeModel.swift in Sources */,
+				90542B792CC7052100F90F85 /* CodeView.swift in Sources */,
+				9045411F2CC6D7A100858EF2 /* EventsP.swift in Sources */,
+				904541222CC6DAB400858EF2 /* PageModel.swift in Sources */,
 				90C3C9A92CC2C93A00B7CF41 /* Error.swift in Sources */,
 				E3FF6C2B2CC1BCA400AD19D1 /* ListView.swift in Sources */,
 			);
@@ -473,6 +569,7 @@
 				DEVELOPMENT_TEAM = GWD73NJ686;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ticketmaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -502,6 +599,7 @@
 				DEVELOPMENT_TEAM = GWD73NJ686;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ticketmaster;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -599,7 +697,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E31CACB72CC1AC070089CA1E /* Build configuration list for PBXProject "tickethamsterV3" */ = {
+		E31CACB72CC1AC070089CA1E /* Build configuration list for PBXProject "Ticketmaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E31CACDE2CC1AC0C0089CA1E /* Debug */,

@@ -13,9 +13,11 @@ struct ListView: View {
     private let events: [Event] = Event.samplePages
 
     var body: some View {
-        
-       
+
             ZStack{
+                
+        
+                
                 ZStack{
                     TabView(selection: $eventIndex) {
                         ForEach(events) { event in
@@ -25,6 +27,7 @@ struct ListView: View {
                             
                         }
                     }
+                    .navigationBarHidden(true).navigationBarTitle("")
                 }
                 
                 

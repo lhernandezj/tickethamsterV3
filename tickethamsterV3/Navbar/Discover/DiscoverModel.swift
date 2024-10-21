@@ -23,7 +23,7 @@ struct Event: Identifiable, Equatable {
     static var samplePages : [Event] = [
         Event(tx1: "Venue 1", tx2: "Event Name 1", img1: "default", tag: 0),
         
-        Event(tx1: "Venue 2", tx2: "Event Name 2", img1: "modes", tag: 1),
+        Event(tx1: "Venue 2", tx2: "Event Name 2", img1: "default", tag: 1),
     ]
    
 }
