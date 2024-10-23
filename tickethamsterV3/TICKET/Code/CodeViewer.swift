@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CodeViewer: View {
     
+    
     @State var animation: Bool = false
     @State var animation2: Bool = false
     @State var code : Bool = false

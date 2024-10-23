@@ -30,7 +30,7 @@ struct Account: View {
                     ZStack(){
                         
                         Rectangle()
-                            .frame(width: 500, height: 140)
+                            .frame(width: 500, height: 180)
                             .foregroundColor(Color("nHead"))
                         
                         VStack(alignment: .leading){
@@ -46,7 +46,7 @@ struct Account: View {
                                 .opacity(0.5)
                             
                         }
-                        .padding(.top, 30)
+                        .padding(.top, 80)
                         .padding(.trailing, 210)
                     }
                     
@@ -104,12 +104,15 @@ struct Account: View {
                             HStack(){
                                 
                                     
-                                    Image(systemName: "multiply")
+                                    Image("country")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 24)
                                     Text("My Country")
                                     
                                     Group(){
                                         
-                                        Text("               México")
+                                        Text("           México")
                                             .padding(.leading, 110)
                                         Image(systemName: "rectangle.and.pencil.and.ellipsis")
                                         
@@ -228,33 +231,19 @@ struct Account: View {
                     
                 }
                 //STARTS HEAD
-                .overlay {
- 
-                    ZStack{
-                        
-                        //ESTE BOTON CIERRA EL MODAL
-                        
-                        Color("nHead")
-                            .frame(width: 500, height: 85)
-                            .background(.ultraThinMaterial)
-                            .blur(radius: 0.5)
-                            .edgesIgnoringSafeArea(.top)
-                        
-                            .frame(maxHeight: .infinity,alignment: .top)
-                        ZStack{
-                            
-                            Text("My Account")
-                                .fontWeight(.medium)
-                                .bold()
-                                .font(.custom("Lexend", size: 18))
-                                .foregroundColor(Color.white)
-                            
-                            
-                        }
-                        .frame(maxHeight: .infinity,alignment: .top)
-                    }
+                ZStack{
+                    
+                    Rectangle()
+                        .frame(height: 150)
+                        .foregroundColor(Color("nHead"))
+                    
+                    Text("My Account")
+                        .fontWeight(.bold)
+                        .foregroundStyle(Color.white)
+                        .padding(.top, 70)
+   
                 }
-                .frame(maxHeight: .infinity,alignment: .top)
+                .padding(.bottom, 850)
                 //ENDS HEAD
                 
             }

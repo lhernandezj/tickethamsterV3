@@ -359,7 +359,6 @@ struct Discover: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 25)
-                        
                 }
                     .padding(.top, 70)
                     .padding(.leading, 350)

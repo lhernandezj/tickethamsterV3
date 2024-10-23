@@ -115,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		902CBFCD2CC95740006424D7 /* OTHERS */ = {
+			isa = PBXGroup;
+			children = (
+				E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */,
+			);
+			path = OTHERS;
+			sourceTree = "<group>";
+		};
 		904541142CC6D19F00858EF2 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,9 +195,9 @@
 		E31CACBE2CC1AC070089CA1E /* tickethamsterV3 */ = {
 			isa = PBXGroup;
 			children = (
+				902CBFCD2CC95740006424D7 /* OTHERS */,
 				904541202CC6DA6D00858EF2 /* TICKET */,
 				E31CACE92CC1AD500089CA1E /* Navbar */,
-				E31CACBF2CC1AC070089CA1E /* tickethamsterV3App.swift */,
 				E31CACC12CC1AC070089CA1E /* ContentView.swift */,
 				E31CACC32CC1AC0B0089CA1E /* Assets.xcassets */,
 				E31CACC52CC1AC0B0089CA1E /* Preview Content */,
@@ -575,6 +583,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,6 +614,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
