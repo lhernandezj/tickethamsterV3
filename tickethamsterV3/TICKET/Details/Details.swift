@@ -20,7 +20,7 @@ struct Details: View {
   
                 VStack(alignment: .leading){
                     Text("Seat Location").bold()
-                    Text("General Admission VIP / G0 / -")
+                    Text("General Admission GRAL1 / G8 / -")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -28,8 +28,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Modeselektor DJ").bold()
-                    Text("sáb, oct 26, 21 h 00 • Frontón México")
+                    Text("Individual General Corona Capital 2024").bold()
+                    Text("15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez")
                         .font(.system(size: 13.5))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -56,7 +56,7 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Frontón México").bold()
+                    Text("Autódromo Hermanos Rodríguez").bold()
                     Text("México DF")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
@@ -84,7 +84,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Entrance").bold()
-                    Text("VIP")
+                    Text("P6 GRAL DE PIE")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)

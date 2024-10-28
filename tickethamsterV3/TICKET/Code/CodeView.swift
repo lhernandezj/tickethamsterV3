@@ -108,7 +108,7 @@ struct CodeView: View {
                     .font(.system(size: 18))
                     .padding(.top, 210)
                 
-                Text("VIP")
+                Text("P6 GRAL DE PIE")
                     .multilineTextAlignment(.leading)
                 
                     .foregroundColor(Color.white)
@@ -135,6 +135,7 @@ struct CodeView: View {
                     }))
                 })
                 
+                
                 Rectangle()
                     .frame(width: 12, height: 68)
                     .frame(maxWidth: 302, alignment: animation ? .trailing : .leading)
@@ -151,6 +152,7 @@ struct CodeView: View {
                     .padding(.bottom, 216)
                 //.animation(.spring())
                     .animation(Animation.linear(duration: 1.5).repeatForever(autoreverses: true))
+                 
             }
             
         }

@@ -12,6 +12,7 @@ struct EventsP: View {
         
         ScrollView(showsIndicators: false){
             
+            
             ZStack{
                 ZStack(alignment: .leading){
                     Image("emblema")

@@ -28,12 +28,12 @@ struct Page: Identifiable, Equatable {
     var tag: Int
     
     
-    static var samplePage = Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "VIP", tx4: "G0", tx5: "-", tx6: "Modeselektor DJ", tx7: "sáb, oct 26, 21 h 00", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
+    static var samplePage = Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL1", tx4: "G8", tx5: "-", tx6: "Individual General Corona Capital 2024", tx7: "15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
     
     static var samplePages : [Page] = [
-        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "VIP", tx4: "G0", tx5: "-", tx6: "Modeselektor DJ", tx7: "sáb, oct 26, 21 h 00", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
+        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL1", tx4: "G8", tx5: "-", tx6: "Individual General Corona Capital 2024", tx7: "15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
         
-        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "VIP", tx4: "G0", tx5: "-", tx6: "Modeselektor DJ", tx7: "sáb, oct 26, 21 h 00", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 1),
+        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL1", tx4: "G8", tx5: "-", tx6: "Individual General Corona Capital 2024", tx7: "15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 1),
     ]
    
 }

@@ -9,7 +9,6 @@ import SwiftUI
 
 struct CodeViewer: View {
     
-    
     @State var animation: Bool = false
     @State var animation2: Bool = false
     @State var code : Bool = false
@@ -167,14 +166,14 @@ struct CodeViewer: View {
                         }*/
                     
                     
-                    Text("Modeselektor DJ")
+                    Text("Individual General Corona Capital 2024")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("sab, oct 27, 21 h 00 • Frontón México")
+                    Text("15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))

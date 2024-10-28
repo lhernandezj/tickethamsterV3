@@ -22,16 +22,16 @@ struct EventsUp: View {
                     Button(action: { ticket2.toggle() }) {
                         
                         ZStack(alignment: .leading){
-                            Image("modes")
+                            Image("event")
                                 .resizable()
                                 .frame(width: 400, height: 220)
-                            Text("Modeselektor DJ")
+                            Text("Individual General Corona Capital 2024")
                                 .multilineTextAlignment(.leading)
                                 .foregroundColor(Color.white)
                                 .font(.system(size: 20))
                                 .padding(.leading, 20)
                                 .padding(.top, 75)
-                            Text("sáb, oct 26, 21 h 00 • Frontón México")
+                            Text("15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez")
                                 .multilineTextAlignment(.leading)
                                 .foregroundColor(Color.white)
                                 .font(.system(size: 13))

@@ -61,14 +61,16 @@ struct PageView: View {
                 .padding(.leading, 240)
                 .foregroundColor(Color.white)
             
+            //EVENT NAME
             Text(page.tx6)
-                .font(.system(size: 20))
+                .font(.system(size: 19))
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color.white)
-                .padding(.bottom, 20)
+                .padding(.bottom, 10)
             
+            //EVENT DATE
             Text(page.tx7)
-                .font(.system(size: 12))
+                .font(.system(size: 11))
                 .padding(.top, 50)
                 .foregroundColor(Color.white)
             
