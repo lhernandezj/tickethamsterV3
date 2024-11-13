@@ -48,7 +48,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Barcode Number").bold()
-                    Text("70314917064999")
+                    Text("83772109195241")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
