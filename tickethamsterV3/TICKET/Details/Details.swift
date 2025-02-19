@@ -28,8 +28,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Individual General Corona Capital 2024").bold()
-                    Text("15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez")
+                    Text("Electric Daisy Carnival 2025 Individual General").bold()
+                    Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
                         .font(.system(size: 13.5))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -48,7 +48,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Barcode Number").bold()
-                    Text("83772109195241")
+                    Text("12926749588339")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -84,7 +84,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Entrance").bold()
-                    Text("P6 GRAL DE PIE")
+                    Text("P 6 GRAL DE PIE")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -93,7 +93,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Purchase Date").bold()
-                    Text("Fri, Sep 13 2024 - 19:23")
+                    Text("Fri, Nov 15 2024 - 19:23")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -128,7 +128,7 @@ struct Details: View {
                 Button(action: {presentationMode.wrappedValue.dismiss()}){
  
                     Color("nHead")
-                        .frame(height: 85)
+                        .frame(width: 600, height: 105)
                         .background(.ultraThinMaterial)
                         .blur(radius: 0.5)
                         .edgesIgnoringSafeArea(.top)

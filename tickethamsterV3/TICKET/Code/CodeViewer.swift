@@ -25,7 +25,7 @@ struct CodeViewer: View {
         ZStack{
             
             Rectangle()
-                .frame(width:430,height: 100)
+                .frame(width:440,height: 100)
                 .padding(.top, 840)
                 .foregroundColor(Color("nHead"))
             
@@ -147,7 +147,7 @@ struct CodeViewer: View {
                 Button(action: {presentationMode.wrappedValue.dismiss()}){
                     
                     Color("nHead")
-                        .frame(height: 90)
+                        .frame(width: 600, height: 112)
                         .background(.ultraThinMaterial)
                         .blur(radius: 0.5)
                         .edgesIgnoringSafeArea(.top)
@@ -166,14 +166,14 @@ struct CodeViewer: View {
                         }*/
                     
                     
-                    Text("Individual General Corona Capital 2024")
+                    Text("Electric Daisy Carnival 2025 Individual General")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("15 nov 2024, 2:00 p.m. • Autódromo Hermanos Rodríguez")
+                    Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))

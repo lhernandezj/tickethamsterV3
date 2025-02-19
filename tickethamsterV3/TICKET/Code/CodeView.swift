@@ -25,7 +25,7 @@ struct CodeView: View {
             
             Image("safe")
                 .resizable()
-                .frame(width: 438, height: 772)
+                .frame(width: 440, height: 774)
             
             RoundedRectangle(cornerRadius: 15.0)
                 .frame(width:310,height: 138)

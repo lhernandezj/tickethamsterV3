@@ -32,61 +32,60 @@ struct PageView: View {
             Image("\(page.imageUrl)")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 370, height: 651)
+                .frame(width: 380, height: 651)
             
             Text(page.tx1)
-                .font(.system(size: 14))
-                .padding(.bottom, 560)
+                .font(.system(size: 15))
+                .padding(.bottom, 580)
                 .foregroundColor(Color.white)
             
             Text(page.tx2)
-                .font(.system(size: 18))
-                .padding(.bottom, 480)
+                .font(.system(size: 20))
+                .padding(.bottom, 500)
                 .foregroundColor(Color.white)
             
             Text(page.tx3).bold()
                 .font(.system(size: 22))
-                .padding(.bottom, 400)
+                .padding(.bottom, 415)
                 .padding(.trailing, 240)
                 .foregroundColor(Color.white)
             
             Text(page.tx4).bold()
                 .font(.system(size: 22))
-                .padding(.bottom, 400)
+                .padding(.bottom, 415)
                 .foregroundColor(Color.white)
             
             Text(page.tx5).bold()
                 .font(.system(size: 22))
-                .padding(.bottom, 400)
+                .padding(.bottom, 415)
                 .padding(.leading, 240)
                 .foregroundColor(Color.white)
             
             //EVENT NAME
             Text(page.tx6)
-                .font(.system(size: 19))
+                .font(.system(size: 20))
                 .multilineTextAlignment(.center)
                 .foregroundColor(Color.white)
-                .padding(.bottom, 10)
+                .padding(.bottom, 20)
             
             //EVENT DATE
             Text(page.tx7)
-                .font(.system(size: 11))
-                .padding(.top, 50)
+                .font(.system(size: 12))
+                .padding(.top, 60)
                 .foregroundColor(Color.white)
             
             Text(page.tx8)
                 .foregroundColor(Color.black)
-                .bold()
-                .font(.system(size: 14))
-                .padding(.top, 180)
+                .font(.system(size: 15))
+                .padding(.top, 200)
             
             //BUTTON TO CODE
             Button(action: { modal.toggle() }) {
                 ZStack{
                     Rectangle()
-                        .frame(width: 300, height: 45)
+                        .frame(width: 325, height: 50)
                         .foregroundColor(Color("nHead"))
-                        .cornerRadius(2.0)
+                        .cornerRadius(1.0)
                     
                     HStack{
                         Image("scan")
@@ -103,7 +102,7 @@ struct PageView: View {
             .fullScreenCover(isPresented: $modal){
                 CodeViewer()
             }
-            .padding(.top, 310)
+            .padding(.top, 350)
 
             HStack{
                 //BUTTON TO DETAILS
@@ -120,7 +119,7 @@ struct PageView: View {
                 }
                 
             }
-            .padding(.top, 450)
+            .padding(.top, 510)
             
         }
     }

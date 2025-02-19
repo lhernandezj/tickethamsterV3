@@ -54,7 +54,7 @@ struct ErrorEvent: View {
                 
                 
                 Color("nHead")
-                    .frame(height: 85)
+                    .frame(height: 105)
                     .background(.ultraThinMaterial)
                     .blur(radius: 0.5)
                     .edgesIgnoringSafeArea(.top)

@@ -76,7 +76,7 @@ struct TicketsView: View {
                     
                     
                     Color("nHead")
-                        .frame(width: 500, height: 85)
+                        .frame(width: 500, height: 105)
                         .background(.ultraThinMaterial)
                         .blur(radius: 0.5)
                         .edgesIgnoringSafeArea(.top)

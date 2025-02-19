@@ -183,10 +183,11 @@ struct Discover: View {
                     Image("banner")
                         .resizable()
                         .scaledToFit()
+                        .frame(width: 445)
                     
                     ZStack(alignment: .leading){
                         
-                        Text("EDC México 2025")
+                        Text("El Rey León")
                             .fontWeight(.bold)
                             .font(.system(size: 25))
                                 .foregroundColor(Color.white)
@@ -225,15 +226,15 @@ struct Discover: View {
                             Image("e1")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 400, height: 651)
+                                .frame(width: 415, height: 610)
                             
-                            Text("Lunario del Auditorio Nacional")
+                            Text("Centro Banamex")
                                 .font(.system(size: 14))
                                 .foregroundStyle(.gray)
                                 .padding(.top, 270)
                                 .padding(.leading, 15)
                             
-                            Text("Renee")
+                            Text("CCXP")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .padding(.top, 325)
@@ -254,7 +255,7 @@ struct Discover: View {
                             Image("e2")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 400, height: 651)
+                                .frame(width: 415, height: 665)
                             
                             Text("Ticketmaster")
                                 .font(.system(size: 14))
@@ -284,15 +285,15 @@ struct Discover: View {
                             Image("e3")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 400, height: 651)
+                                .frame(width: 415, height: 651)
                             
-                            Text("Autódromo Hermanos Rodríguez")
+                            Text("Centro Cultural San Ángel")
                                 .font(.system(size: 14))
                                 .foregroundStyle(.gray)
                                 .padding(.top, 270)
                                 .padding(.leading, 15)
                             
-                            Text("Corona Capital")
+                            Text("Toc Toc")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .padding(.top, 325)
@@ -314,15 +315,15 @@ struct Discover: View {
                             Image("e4")
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 400, height: 651)
+                                .frame(width: 415, height: 651)
                             
-                            Text("Estadio GNP Seguros")
+                            Text("Ticketmaster")
                                 .font(.system(size: 14))
                                 .foregroundStyle(.gray)
                                 .padding(.top, 270)
                                 .padding(.leading, 15)
                             
-                            Text("Los Temerarios")
+                            Text("Heineken Garden Lounge")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .padding(.top, 325)
