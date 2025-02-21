@@ -56,6 +56,49 @@ struct EventsUp: View {
                         TicketsView()
                     }
                     .padding(.top, 50)
+                    
+                }
+            }
+            
+            Button(action: {}) {
+                ZStack{
+                    Button(action: { ticket1.toggle() }) {
+                        
+                        ZStack(alignment: .leading){
+                            Image("event")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 410, height: 230)
+                            Text("Electric Daisy Carnival 2025 Individual Citibanamex Plus")
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color.white)
+                                .font(.system(size: 20))
+                                .padding(.leading, 20)
+                                .padding(.top, 55)
+                            Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color.white)
+                                .font(.system(size: 13))
+                                .padding(.leading, 20)
+                                .padding(.top, 130)
+                            Image("ticon")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                                .padding(.top, 175)
+                                .padding(.leading, 20)
+                            
+                            Text("1 boleto")
+                                .multilineTextAlignment(.leading)
+                                .foregroundColor(Color.white)
+                                .font(.system(size: 12))
+                                .padding(.leading, 45)
+                                .padding(.top, 175)
+                        }
+                    }
+                    .fullScreenCover(isPresented: $ticket1){
+                        TicketsViewTWO()
+                    }
+                    
                 }
             }
             
