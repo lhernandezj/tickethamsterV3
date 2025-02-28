@@ -81,7 +81,7 @@ struct Events: View {
         @Binding var currentTab: Int
         @Namespace var namespace
         
-        var tabBarOptions: [String] = ["          UPCOMING (1)          ", "          PAST(0)             "]
+        var tabBarOptions: [String] = ["          UPCOMING (1)          ", "          PAST(1)             "]
         var body: some View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {

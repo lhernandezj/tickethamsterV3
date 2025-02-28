@@ -28,10 +28,12 @@ struct PageTwo: Identifiable, Equatable {
     var tag: Int
     
     
-    static var samplePageTwo = PageTwo(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "PLUS", tx4: "G8", tx5: "-", tx6: "Electric Daisy Carnival 2025\nIndividual Citibanamex Plus", tx7: "Sat, Feb 22, 3p.m. • Autódromo Hermanos Rodríguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
+    static var samplePageTwo = PageTwo(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL", tx4: "G8", tx5: "-", tx6: "Abono General Vive Latino 2025", tx7: "Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
     
     static var samplePages : [PageTwo] = [
-        PageTwo(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "PLUS", tx4: "G8", tx5: "-", tx6: "Electric Daisy Carnival 2025\nIndividual Citibanamex Plus", tx7: "Sat, Feb 22, 3p.m. • Autódromo Hermanos Rodríguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
+        PageTwo(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL", tx4: "G8", tx5: "-", tx6: "Abono General Vive Latino 2025", tx7: "Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
+        
+        PageTwo(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL", tx4: "G8", tx5: "-", tx6: "Abono General Vive Latino 2025", tx7: "Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 1),
         
     ]
    

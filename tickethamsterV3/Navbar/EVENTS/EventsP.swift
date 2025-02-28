@@ -16,17 +16,17 @@ struct EventsP: View {
             
             ZStack{
                 ZStack(alignment: .leading){
-                    Image("cm")
+                    Image("edc")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 410, height: 230)
-                    Text("Individual Sab General Axe\nCeremonia 2024")
+                    Text("Electric Daisy Carnival 2025 Individual Citibanamex Plus")
                         .multilineTextAlignment(.leading)
                         .foregroundColor(Color.white)
                         .font(.system(size: 20))
                         .padding(.leading, 20)
                         .padding(.top, 55)
-                    Text("sáb, mar 23, 1 p.m. • Parque Bicentenario Ciudad de Mé. . .")
+                    Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
                         .multilineTextAlignment(.leading)
                         .foregroundColor(Color.white)
                         .font(.system(size: 13))
@@ -38,20 +38,22 @@ struct EventsP: View {
                         .padding(.top, 175)
                         .padding(.leading, 20)
                     
-                    Text("1 boleto")
+                    Text("2 boletos")
                         .multilineTextAlignment(.leading)
                         .foregroundColor(Color.white)
                         .font(.system(size: 12))
                         .padding(.leading, 45)
                         .padding(.top, 175)
                     Rectangle()
-                        .frame(width: 400, height: 220)
+                        .frame(width: 410, height: 223)
                         .foregroundColor(Color.white)
                         .opacity(0.6)
+                        .padding(.bottom, 7)
                     Rectangle()
-                        .frame(width: 400, height: 25)
-                        .foregroundColor(Color("pastEvent"))
+                        .frame(width: 396, height: 30)
+                        .foregroundColor(Color("past"))
                         .padding(.bottom, 200)
+                        .padding(.leading, 7)
                     Text("PAST EVENT").bold()
                         .foregroundColor(Color.white)
                         .font(.system(size: 12))
@@ -60,7 +62,6 @@ struct EventsP: View {
                 }
                 
             }
-            .hidden()
             
             ZStack{
                 ZStack(alignment: .leading){

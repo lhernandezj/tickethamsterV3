@@ -166,14 +166,14 @@ struct CodeViewer: View {
                         }*/
                     
                     
-                    Text("Electric Daisy Carnival 2025 Individual General")
+                    Text("Abono General Vive Latino 2025")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
+                    Text("Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros                   ")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))
