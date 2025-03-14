@@ -173,7 +173,7 @@ struct CodeViewer: View {
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros                   ")
+                    Text("Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))
