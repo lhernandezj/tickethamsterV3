@@ -55,7 +55,7 @@ struct Error: View {
                     
                     
                     Color("nHead")
-                        .frame(height: 85)
+                        .frame(width: 600, height: 105)
                         .background(.ultraThinMaterial)
                         .blur(radius: 0.5)
                         .edgesIgnoringSafeArea(.top)
@@ -74,6 +74,7 @@ struct Error: View {
                         .bold()
                         .font(.custom("Lexend", size: 18))
                         .foregroundColor(Color.white)
+                        .padding(.top, 10)
                     
                     
                 }

@@ -28,8 +28,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Electric Daisy Carnival 2025 Individual General").bold()
-                    Text("22 feb 2025, 3p.m. • Autódromo Hermanos Rodríguez")
+                    Text("Abono General Vive Latino 2025").bold()
+                    Text("dom, mar 16 - sáb, mar 15 • Estadio GNP Seguros")
                         .font(.system(size: 13.5))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -56,8 +56,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Autódromo Hermanos Rodríguez").bold()
-                    Text("México DF")
+                    Text("Estadio GNP Seguros").bold()
+                    Text("Ciudad de México DF MX")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
