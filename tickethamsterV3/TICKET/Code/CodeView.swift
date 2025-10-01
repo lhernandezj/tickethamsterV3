@@ -108,7 +108,7 @@ struct CodeView: View {
                     .font(.system(size: 18))
                     .padding(.top, 210)
                 
-                Text("P6 GRAL DE PIE")
+                Text("ACCESO D")
                     .multilineTextAlignment(.leading)
                 
                     .foregroundColor(Color.white)

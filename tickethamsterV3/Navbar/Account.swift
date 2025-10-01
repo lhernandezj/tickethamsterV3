@@ -84,7 +84,7 @@ struct Account: View {
                             
                             
                             Button(action:{}){
-                            HStack(){
+                                HStack(){
                                 Image(systemName: "mappin.and.ellipse")
                                 Text("My Location")
                                 

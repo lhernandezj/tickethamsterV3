@@ -20,12 +20,12 @@ struct Codee: Identifiable, Equatable {
     var imageUrl: String
     var tag: Int
     
-    static var sampleCode = Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL1", tx4: "G8", tx5: "-", imageUrl: "barcodeA", tag: 0)
+    static var sampleCode = Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL-B", tx4: "G8", tx5: "-", imageUrl: "barcodeA", tag: 0)
     
     static var sampleCodes : [Codee] = [
         
-        Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL1", tx4: "G8", tx5: "-", imageUrl: "barcodeA", tag: 0),
-        Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL1", tx4: "G8", tx5: "-", imageUrl: "barcodeB", tag: 1),
+        Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL-B", tx4: "G8", tx5: "-", imageUrl: "barcodeA", tag: 0),
+        Codee(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL-B", tx4: "G8", tx5: "-", imageUrl: "barcodeB", tag: 1),
         
         ]
  

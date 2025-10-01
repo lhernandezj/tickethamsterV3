@@ -166,14 +166,14 @@ struct CodeViewer: View {
                         }*/
                     
                     
-                    Text("Abono General Vive Latino 2025")
+                    Text("Zoe")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("Sat, Mar 15 - Sat, Mar 15, 3p.m. • Estadio GNP Seguros")
+                    Text("jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))

@@ -44,7 +44,7 @@ struct About: View {
             .font(.system(size: 18))
             .opacity(0.6)
             .padding()
-        Text("Eduardo Wolffel")
+        Text("Eduardo Jimenez")
             .font(.system(size: 18))
             .opacity(0.6)
         Text("Brenda Izquierdo")

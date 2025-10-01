@@ -20,7 +20,7 @@ struct Details: View {
   
                 VStack(alignment: .leading){
                     Text("Seat Location").bold()
-                    Text("General Admission GRAL1 / G8 / -")
+                    Text("GRAL-B / G8 / -")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -28,8 +28,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Abono General Vive Latino 2025").bold()
-                    Text("dom, mar 16 - sáb, mar 15 • Estadio GNP Seguros")
+                    Text("Zoe").bold()
+                    Text("jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros")
                         .font(.system(size: 13.5))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -48,7 +48,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Barcode Number").bold()
-                    Text("12926749588339")
+                    Text("748635022263388632a")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -66,7 +66,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Order Number").bold()
-                    Text("43-22950/MXC")
+                    Text("43-53522/MXC")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -84,7 +84,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Entrance").bold()
-                    Text("P 6 GRAL DE PIE")
+                    Text("ACCESO D")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -93,7 +93,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Purchase Date").bold()
-                    Text("Fri, Nov 15 2024 - 19:23")
+                    Text("Fri, oct 4 2024")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -102,11 +102,11 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Ticket Price").bold()
-                    Text("Ticket Face Value                                                 $1250.00")
+                    Text("Ticket Face Value                                                 $3477.00")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
-                    Text("GRAND TOTAL                                                      $1250.00")
+                    Text("GRAND TOTAL                                                      $3477.00")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
