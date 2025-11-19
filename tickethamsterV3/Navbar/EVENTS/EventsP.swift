@@ -13,6 +13,41 @@ struct EventsP: View {
         ScrollView(showsIndicators: false){
             
             
+            ZStack{
+                
+                Circle()
+                    .foregroundColor(Color("nHead"))
+                    .frame(height: 100)
+                
+                Image("ticon")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 60, height: 230)
+                
+                Text("No past events")
+                    .bold()
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(Color("nHead"))
+                    .font(.system(size: 20))
+                    .padding(.top, 200)
+                
+                Rectangle()
+                    .frame(width: 350, height: 45)
+                    .foregroundColor(Color.white)
+                    .border(Color("nHead"))
+                    .padding(.top, 450)
+                
+                Text("Refresh")
+                    .bold()
+                    .multilineTextAlignment(.leading)
+                    .foregroundColor(Color("nHead"))
+                    .font(.system(size: 16))
+                    .padding(.top, 450)
+                
+            }
+            
+            
+            
             
             ZStack{
                 ZStack(alignment: .leading){
@@ -65,6 +100,7 @@ struct EventsP: View {
                     .padding(.bottom, 50)
                 }
             }
+            .hidden()
             
             ZStack{
                 ZStack(alignment: .leading){

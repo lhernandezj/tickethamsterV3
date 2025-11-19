@@ -28,12 +28,12 @@ struct Page: Identifiable, Equatable {
     var tag: Int
     
     
-    static var samplePage = Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL-B", tx4: "G8", tx5: "-", tx6: "Zoe", tx7: "jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
+    static var samplePage = Page(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL6", tx4: "G2", tx5: "-", tx6: "ABONO GENERAL 3 DÍAS\nCORONA CAPITAL 2025", tx7: "Fri 14 Nov 2025 • Autodromo Hnos. Rodriguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0)
     
     static var samplePages : [Page] = [
-        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL-B", tx4: "G8", tx5: "-", tx6: "Zoe", tx7: "jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
+        Page(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL6", tx4: "G2", tx5: "-", tx6: "ABONO GENERAL 3 DÍAS\nCORONA CAPITAL 2025", tx7: "Fri 14 Nov 2025 • Autodromo Hnos. Rodriguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 0),
         
-        Page(tx1: "Boleto Normal", tx2: "Admisión General", tx3: "GRAL-B", tx4: "G8", tx5: "-", tx6: "Zoe", tx7: "jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 1),
+        Page(tx1: "Boleto Normal", tx2: "General Admission", tx3: "GRAL6", tx4: "G2", tx5: "-", tx6: "ABONO GENERAL 3 DÍAS\nCORONA CAPITAL 2025", tx7: "Fri 14 Nov 2025 • Autodromo Hnos. Rodriguez", tx8: "Mobile Entry", tx9: "View in Wallet", imageUrl: "ticket", tag: 1),
     ]
    
 }

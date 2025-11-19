@@ -20,7 +20,7 @@ struct Details: View {
   
                 VStack(alignment: .leading){
                     Text("Seat Location").bold()
-                    Text("GRAL-B / G8 / -")
+                    Text("GRAL6 / G2 / -")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -28,8 +28,8 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Zoe").bold()
-                    Text("jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros")
+                    Text("ABONO GENERAL 3 DÍAS CORONA CAPITAL 2025").bold()
+                    Text("Fri 14 Nov 2025 • Autodromo Hnos. Rodriguez")
                         .font(.system(size: 13.5))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -48,7 +48,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Barcode Number").bold()
-                    Text("748635022263388632a")
+                    Text("20714715256741")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
                         .opacity(0.5)
@@ -56,7 +56,7 @@ struct Details: View {
                 .padding(.vertical, 10)
                 
                 VStack(alignment: .leading){
-                    Text("Estadio GNP Seguros").bold()
+                    Text("Autodromo Hnos. Rodriguez").bold()
                     Text("Ciudad de México DF MX")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.5)
@@ -84,7 +84,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Entrance").bold()
-                    Text("ACCESO D")
+                    Text("P6 GENERAL")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -93,7 +93,7 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Purchase Date").bold()
-                    Text("Fri, oct 4 2024")
+                    Text("Fri, oct 3 2025")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
@@ -102,11 +102,11 @@ struct Details: View {
                 
                 VStack(alignment: .leading){
                     Text("Ticket Price").bold()
-                    Text("Ticket Face Value                                                 $3477.00")
+                    Text("Ticket Face Value                                                 $4320.00")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)
-                    Text("GRAND TOTAL                                                      $3477.00")
+                    Text("GRAND TOTAL                                                      $4320.00")
                         .font(.system(size: 15))
                         .padding(.vertical, 0.1)
                         .opacity(0.5)

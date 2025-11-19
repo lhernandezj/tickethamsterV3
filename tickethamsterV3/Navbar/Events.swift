@@ -81,7 +81,7 @@ struct Events: View {
         @Binding var currentTab: Int
         @Namespace var namespace
         
-        var tabBarOptions: [String] = ["          UPCOMING (1)          ", "          PAST(1)             "]
+        var tabBarOptions: [String] = ["             UPCOMING (1)          ", "            PAST(0)             "]
         var body: some View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
@@ -100,8 +100,7 @@ struct Events: View {
                 .padding(.horizontal)
             }
             .foregroundColor(Color.white)
-            .background(Color("blueticket"))
-            .bold()
+            .background(Color("nHead"))
             .frame(height: 80)
             .padding(.top, 120)
         }

@@ -166,14 +166,14 @@ struct CodeViewer: View {
                         }*/
                     
                     
-                    Text("Zoe")
+                    Text("ABONO GENERAL 3 DÍAS CORONA CAPITAL 2025")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 15))
                         .foregroundColor(Color.white)
                         .padding(.leading, 35)
                     
-                    Text("jue, 02 de oct de 2025, 21:00 • Estadio GNP Seguros")
+                    Text("Fri 14 Nov 2025, 2 P.M. • Autodromo Hnos. Rodriguez")
                         .fontWeight(.medium)
                         .bold()
                         .font(.custom("Lexend", size: 12))

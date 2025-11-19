@@ -228,13 +228,13 @@ struct Discover: View {
                                 .scaledToFit()
                                 .frame(width: 415, height: 610)
                             
-                            Text("Centro Banamex")
+                            Text("Estadio GNP Seguros")
                                 .font(.system(size: 14))
                                 .foregroundStyle(.gray)
                                 .padding(.top, 270)
                                 .padding(.leading, 15)
                             
-                            Text("CCXP")
+                            Text("Vive Latino 2026")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .padding(.top, 325)
@@ -287,13 +287,13 @@ struct Discover: View {
                                 .scaledToFit()
                                 .frame(width: 415, height: 651)
                             
-                            Text("Centro Cultural San Ángel")
+                            Text("Teatro de los Insurgentes")
                                 .font(.system(size: 14))
                                 .foregroundStyle(.gray)
                                 .padding(.top, 270)
                                 .padding(.leading, 15)
                             
-                            Text("Toc Toc")
+                            Text("El Fantasma de la Ópera")
                                 .font(.system(size: 18))
                                 .fontWeight(.semibold)
                                 .padding(.top, 325)
